@@ -1,8 +1,25 @@
 aid: flexion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexion.png
 name: Flexion
-description: 'Flexion is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Flexion Robotics builds the autonomy stack for humanoid robots — from
+  command to control, from manipulation to locomotion, across any hardware and task.
+  Founded by former NVIDIA and ETH Zurich reinforcement-learning researchers (Nikita
+  Rudin, David Höller, Julian Nubert), the Zurich- and San Francisco-based company
+  uses large-scale simulation and reinforcement learning to train generalizable robot
+  policies that transfer to real-world hardware. Its Flexion Reflect model line targets
+  long-horizon autonomous humanoid work. The company raised $50M and is backed by
+  Prosus Ventures. Flexion does not currently expose a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/flexion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Robotics
+- Humanoid Robots
+- Autonomy
+- Reinforcement Learning
+- Machine Learning
+- Simulation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://flexion.ai
+- type: Blog
+  url: https://flexion.ai/news
+- type: PrivacyPolicy
+  url: https://flexion.ai/legal-pages/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
