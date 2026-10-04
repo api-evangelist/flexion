@@ -48,7 +48,7 @@ tags:
 - Humanoid Robots
 - Autonomy
 - Reinforcement Learning
-- Machine-Learning
+- Machine Learning
 - Simulation
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Reinforcement Learning
 - Machine Learning
 - Simulation
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
